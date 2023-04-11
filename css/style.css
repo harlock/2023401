@@ -1,0 +1,51 @@
+body{
+    background: #d1d1d1;
+    font-family: Tahoma;
+    font-size: 14px;
+    margin: 0;
+    padding: 4em 5em;
+}
+h1{
+    font-size:4em;
+}
+h2{
+    font-size: 3em;
+    text-align: center;
+}
+h3{
+    font-size: 2em;
+}
+
+body main
+{
+    background: #e7e7e7;
+    padding: 1em 5em;
+}
+.row{
+    background: white;
+    border: 2em solid white;
+    margin-bottom: 2em;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+.row .col
+{
+    width: 50%;
+    height: 100vh;
+    background:  #e2e2e2;
+    border: 1em solid #e7e7e7;
+    margin: 0;
+    width: 46%;
+}
+.row .col p{
+    color: #e99eb2;
+    font-style: italic;
+    padding: 1em;
+    text-align: justify;
+}
+.row span
+{
+    position: absolute;
+}

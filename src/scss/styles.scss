@@ -1,0 +1,23 @@
+// Import all of Bootstrap's CSS
+
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+
+$white: #ffffff;
+
+$theme-colors: (
+    "light":      #d4e9e9,
+    "dark":       #050606,
+    "primary":    #005b43,
+    "secondary":  #4b5154,
+    "info":       #026285,
+    "success":    #00992d,
+    "warning":    #efc200,
+    "danger":     #ed003f,
+    "gray"  : #dddddd,
+    "gray-light": $gray-300,
+);
+
+@import "bootstrap/scss/bootstrap";
+
+
